@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/beautiful-purple-color-gradient-background-free-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#navbar ul{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    z-index: 100;
+}
+
+#navbar a{
+    padding: 10px 5px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: aliceblue;
+}
+
+#navbar a:hover{
+    background-color: darkviolet;
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.new-1{
+    margin-right: 50px;
+}
+
+.new-2{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.new-3{
+    margin-left: 50ppx;
+}
